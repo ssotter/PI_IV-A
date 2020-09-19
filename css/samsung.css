@@ -1,0 +1,61 @@
+.video {
+    text-align: center;
+    pointer-events: none;
+    display: block;
+}
+
+.samsung {
+    font-weight: bold;
+    color: black;
+    padding: 40px 10px;
+    width: 1000px;
+    margin: 0 auto; 
+    padding: 10px 0;
+}
+
+.titulo-samsung {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    margin-top: 10px;
+    clear: left;
+}
+
+.samsung li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.samsung li:hover {
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.samsung li:active {
+    border: 2px solid #088C19;
+    border-radius: 10px;
+}
+
+.samsung-descricao {
+    padding-top: 20px;
+    color: gray;
+}
+
+.samsung-preco {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.samsung-preco-parcelado {
+    font-size: 11px;
+    color: darkgray;
+}
+
+.samsung {
+    width: 80%;
+}
