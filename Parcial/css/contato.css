@@ -1,0 +1,14 @@
+.frmContato {
+    width: 500px;
+    margin: auto;
+}
+
+#nome, #email, #assunto, #mensagem {
+    width: 400px;
+    margin: auto;
+    text-align: justify;
+}
+
+#mensagem {
+    text-align: left;
+}

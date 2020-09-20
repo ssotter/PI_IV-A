@@ -6,6 +6,34 @@ header {
     padding: 20 0;
 }
 
+#divBusca {
+    float: right;
+    margin-right: 20px;
+    border: solid 1px #808080;
+    border-radius: 10px;
+    width: 300px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 17px;
+    border: none;
+    height: 32px;
+    width: 220px;
+}
+
+#btnBusca {
+    border: none;
+    float: right;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 60px;
+    background-color: #ddd;
+}
+
 .logo {
     width: 180px;
     left: 100px;
@@ -44,6 +72,13 @@ nav a:hover {
 
 .principal {
     background-color: black;
+}
+
+/* <----- formatar texto privacidade, duvida, devolução e sobre----->*/
+.texto-privacidade, .texto-duvida, .texto-devolucao, .texto-sobre {
+    width: 940px;
+    margin: auto;
+    text-align: justify;
 }
 
 /* <----- Section lancamentos ------> */
@@ -254,7 +289,7 @@ nav a:hover {
 
 footer {
     width: auto;
-    background: url("bg.jpg");
+    background-image: url(/Parcial/img/bg.jpg);
     text-align: center;
     padding-top: 30px;
     padding-bottom: 160px;
@@ -335,7 +370,7 @@ footer {
 
 h1 {
     margin-left: 40px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .linkedin, .instagram, .whatsapp, .skype, .twitter, .email {
