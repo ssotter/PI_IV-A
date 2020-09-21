@@ -1,0 +1,389 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 20 0;
+}
+
+#divBusca {
+    float: right;
+    margin-right: 20px;
+    border: solid 1px #808080;
+    border-radius: 10px;
+    width: 300px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 17px;
+    border: none;
+    height: 32px;
+    width: 220px;
+}
+
+#btnBusca {
+    border: none;
+    float: right;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 60px;
+    background-color: #ddd;
+}
+
+.logo {
+    width: 180px;
+    left: 100px;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    width: auto;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 55px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #696966;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e51b23;
+    text-decoration: none;
+}
+
+.principal {
+    background-color: black;
+}
+
+/* <----- formatar texto privacidade, duvida, devolução e sobre----->*/
+.texto-privacidade, .texto-duvida, .texto-devolucao, .texto-sobre {
+    width: 940px;
+    margin: auto;
+    text-align: justify;
+}
+
+/* <----- Section lancamentos ------> */
+
+.titulo-lancamentos {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.lancamentos {
+    width: 1000px;
+    margin: 0 auto; 
+    padding: 10px 0;
+}
+
+.lancamentos li {
+    display: inline-block;
+    text-align: center;
+    width: 16%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.lancamentos li:hover {
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.lancamentos li:active {
+    border: 2px solid #088C19;
+    border-radius: 10px;
+}
+
+.lancamento-marca {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.lancamento-descricao {
+    padding-top: 20px;
+    color: gray;
+}
+
+.lancamento-preco {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lancamento-preco-parcelado {
+    font-size: 11px;
+    color: darkgray;
+}
+
+
+/* <----- Section mais-vendidos ------> */
+
+.mais-vendidos {
+    width: 1000px;
+    margin: 0 auto; 
+    padding: 10px 0;
+}
+
+.titulo-mais-vendidos {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.mais-vendidos li {
+    display: inline-block;
+    text-align: center;
+    width: 16%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.mais-vendidos li:hover {
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.mais-vendidos li:active {
+    border: 2px solid #088C19;
+    border-radius: 10px;
+}
+
+.mais-vendidos-marca {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.mais-vendidos-descricao {
+    padding-top: 20px;
+    color: gray;
+}
+
+.mais-vendidos-preco {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mais-vendidos-preco-parcelado {
+    font-size: 11px;
+    color: darkgray;
+}
+
+
+/* <----- Section mapa ------> */
+
+.mapa {
+    width: 1000px;
+    margin: 0 auto; 
+    padding: 10px 0;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.celulares {
+    width: 940px;
+    margin: 0 auto; 
+    padding: 50px 0;
+}
+
+.celulares li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.celulares li:hover {
+    border-color: #C78C19;
+}
+
+.celulares li:active {
+    border-color: #088C19;
+}
+
+.acessorios {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.acessorios li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.acessorios li:hover {
+    border-color: #C78C19;
+}
+
+.acessorios li:active {
+    border-color: #088C19;
+}
+
+.acessorios li:hover h2 {
+    font-size: 26px;
+    color: #C78C19;
+}
+
+.acessorios li:active h2 {
+    font-size: 26px;
+    color: #088C19;
+}
+
+.acessorios h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    width: auto;
+    background-image: url("bg.jpg");
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 160px;
+}    
+
+#rodape {
+    margin: 10px auto;
+    width: 940px;
+    text-align: center;
+    
+}
+
+#rodape p {
+    color: #888888;
+    font-size: 13px;
+    line-height: 2;
+}
+#rodape a {
+    color: #888888;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 2;
+}
+
+#rodape a:hover {
+    color: deeppink;
+    text-decoration: none;
+}
+
+.coluna {
+    background: url("bg.jpg");
+    display: inline;
+    float: left;
+    width: 300px;
+}
+
+.copyright {
+    color: #888888;
+    font-size: 13px;
+}
+
+
+/* css da pagina principal */
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.titulo-principal:first-letter {
+    font-weight: bold;
+}
+
+.titulo-principal:before {
+    content: "[ ";
+}
+
+.titulo-principal:after {
+    content: " ]";
+}
+
+.principal p {
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+
+
+h1 {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.linkedin, .instagram, .whatsapp, .skype, .twitter, .email {
+    width: 32px;
+    padding: 5px;
+}
+
+.carousel {
+    width: 940px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.iphonexr, .s10, .mi9, .edge, .k50, .a10, .iphone8, .mi8 {
+    width: 80%;
+}
