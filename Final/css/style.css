@@ -1,20 +1,26 @@
+/* <--- Corpo do HTML ---> */
+/* Configurações do body */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;  /* Define tipo de fonte */
 }
 
+/* <--- Caixa de Busca ---> */
+/* Configurações do cabeçalho */
 header {
-    padding: 20 0;
+    padding: 20 0;  /* Padding/Margem interna */
 }
-
+/* <--- Caixa de Busca ---> */
+/* Configurações da cx de busca */
 #divBusca {
-    float: right;
-    margin-right: 20px;
-    border: solid 1px #808080;
-    border-radius: 10px;
-    width: 300px;
-    height: 32px;
+    float: right; /* Ancoragem a direita */
+    margin-right: 20px; /* Margem direita */
+    border: solid 1px #808080; /* Definições da borda */
+    border-radius: 10px; /* Arredondamento dos cantos */
+    width: 300px; /* Comprimento */
+    height: 32px; /* Altura */
 }
 
+/* Configurações do texto da cx de busca */
 #txtBusca {
     float: left;
     background-color: transparent;
@@ -25,6 +31,7 @@ header {
     width: 220px;
 }
 
+/* Configurações do botão da cx de busca */
 #btnBusca {
     border: none;
     float: right;
@@ -34,41 +41,53 @@ header {
     background-color: #ddd;
 }
 
+/* <--- Logo ---> */
+/* Configurações da logo */
 .logo {
     width: 180px;
     left: 100px;
 }
 
+/* <--- Container caixa ---> */
+/* Configurações do container caixa */
 .caixa {
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
+    width: 940px; /* largura */
+    position: relative;  /* método de posicionamento */
+    margin: 0 auto;  /* margem */
 }
 
+/* <--- Barra de menu/navegação ---> */
+/* Configurações do menu */
 nav {
-    width: auto;
-    position: absolute;
-    top: 50px;
+    width: auto; /* largura */
+    position: absolute;  /* método de posicionamento */
+    top: 50px; 
     right: 40px;
 }
 
+/* Configurações dos itens da lista */
 nav li {
-    display: inline;
-    margin: 0 0 0 55px;
+    display: inline; /* Comportamento dos elementos em linha */
+    margin: 0 0 0 55px;  /* margens */
 }
 
+/* Configurações dos textos da barra de menu */
 nav a {
-    text-transform: uppercase;
-    color: #696966;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+    text-transform: uppercase; /* transforma texto em maiusculas */
+    color: #696966; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+    font-size: 22px; /* Tamanho da fonte */
+    text-decoration: none; /* Remove o sublinhado */
 }
 
+/* Configurações dos textos da barra de menu com o Mouse por cima */
 nav a:hover {
-    color: #e51b23;
-    text-decoration: none;
+    color: #e51b23; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
 }
+
+
+
 
 .principal {
     background-color: black;
