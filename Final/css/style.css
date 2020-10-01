@@ -86,15 +86,35 @@ nav a:hover {
     text-decoration: none; /* Remove o sublinhado */
 }
 
-.principal {
-    background-color: black;
+/* <---- Configuração de margens do h1 ----> */
+h1 {
+    margin-left: 40px;
+    margin-top: 15px;
 }
 
-/* <----- formatar texto privacidade, duvida, devolução e sobre----->*/
-.texto-privacidade, .texto-duvida, .texto-devolucao, .texto-sobre {
-    width: 940px;
-    margin: auto;
-    text-align: justify;
+/* <---- css do título principal ----> */
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.principal {
+    background-color: black;
 }
 
 /* <----- Section lancamentos ------> */
@@ -225,6 +245,13 @@ nav a:hover {
     text-align: center;
 }
 
+/* <----- formatar texto privacidade, duvida, devolução e sobre----->*/
+.texto-privacidade, .texto-duvida, .texto-devolucao, .texto-sobre {
+    width: 940px;
+    margin: auto;
+    text-align: justify;
+}
+
 /* <----- Configurações do Rodapé -----> */
 footer {
     width: auto;
@@ -267,46 +294,6 @@ footer {
 .copyright {
     color: #888888;
     font-size: 13px;
-}
-
-
-/* <---- css da pagina principal ----> */
-.titulo-principal {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left;
-}
-
-.titulo-principal:first-letter {
-    font-weight: bold;
-}
-
-.titulo-principal:before {
-    content: "[ ";
-}
-
-.titulo-principal:after {
-    content: " ]";
-}
-
-.principal p {
-    margin: 0 0 1em;
-    text-align: center;
-}
-
-.principal strong {
-    font-weight: bold;
-}
-
-.principal em {
-    font-style: italic;
-}
-
-/* <---- Configuração de margens do h1 ----> */
-h1 {
-    margin-left: 40px;
-    margin-top: 15px;
 }
 
 /* <--- Configura tamanho e padding dos icones das redes sociais ---> */
