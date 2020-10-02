@@ -9,7 +9,7 @@ body {
 header {
     padding: 20 0;  /* Padding/Margem interna */
 }
-/* <--- Caixa de Busca ---> */
+/* <---- Caixa de Busca ----> */
 /* Configurações da cx de busca */
 #divBusca {
     float: right; /* Ancoragem a direita */
